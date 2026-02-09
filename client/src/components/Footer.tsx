@@ -8,9 +8,11 @@ export function Footer() {
         {/* Brand */}
         <div className="space-y-6">
           <div className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center text-white font-bold text-xl">
-              H
-            </div>
+            <img
+              src="/logo.png"
+              alt="Logo"
+              className="w-10 h-10 rounded-lg object-cover"
+            />
             <div className="flex flex-col">
               <span className="font-heading font-bold text-lg leading-tight text-white">
                 Dr. Anurag Hemani
@@ -59,21 +61,21 @@ export function Footer() {
           <ul className="space-y-4 text-sm">
             <li className="flex items-start gap-3 text-white/70">
               <MapPin className="w-5 h-5 text-primary shrink-0" />
-              <span>123 Medical Plaza, Malviya Nagar, Jaipur, Rajasthan 302017</span>
+              <span>D-75a, Paramhans Colony, Sindhu Nagar, Murlipura, Jaipur Rajasthan 302039</span>
             </li>
             <li className="flex items-center gap-3 text-white/70">
               <Phone className="w-5 h-5 text-primary shrink-0" />
-              <span>+91 987 654 3210</span>
+              <span>+91 93520 30055</span>
             </li>
             <li className="flex items-center gap-3 text-white/70">
               <Mail className="w-5 h-5 text-primary shrink-0" />
-              <span>info@drhemani.com</span>
+              <span>hemanianurag@gmail.com</span>
             </li>
             <li className="flex items-start gap-3 text-white/70">
               <Clock className="w-5 h-5 text-primary shrink-0" />
               <div>
-                <p>Mon - Sat: 10:00 AM - 8:00 PM</p>
-                <p>Sun: By Appointment</p>
+                <p>Mon - Sat: 9:30 AM - 2:00 PM and 4:30 PM - 9:00 PM</p>
+                <p>Sun: 10:00 AM - 2:00 PM</p>
               </div>
             </li>
           </ul>

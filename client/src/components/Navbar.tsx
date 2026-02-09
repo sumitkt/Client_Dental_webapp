@@ -32,9 +32,11 @@ export function Navbar() {
     >
       <div className="container-custom flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2 group">
-          <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center text-white font-bold text-xl group-hover:scale-105 transition-transform">
-            H
-          </div>
+          <img
+            src="/logo.png"
+            alt="Logo"
+            className="w-10 h-10 rounded-lg object-cover group-hover:scale-105 transition-transform"
+          />
           <div className="flex flex-col">
             <span className="font-heading font-bold text-lg leading-tight text-foreground">
               Dr. Anurag Hemani

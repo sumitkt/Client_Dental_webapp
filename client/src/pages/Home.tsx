@@ -26,7 +26,7 @@ const FEATURES = [
 
 const SERVICES = [
   { title: "General Dentistry", desc: "Routine checkups, cleaning, and preventative care.", img: "https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&q=80&w=400" },
-  { title: "Cosmetic Dentistry", desc: "Veneers, whitening, and smile makeovers.", img: "https://images.unsplash.com/photo-1598256989494-0363810f6b58?auto=format&fit=crop&q=80&w=400" },
+  { title: "Cosmetic Dentistry", desc: "Veneers, whitening, and smile makeovers.", img: "/photo-2.jpeg" },
   { title: "Dental Implants", desc: "Permanent solutions for missing teeth.", img: "https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&q=80&w=400" },
   { title: "Orthodontics", desc: "Braces and aligners for a straighter smile.", img: "https://images.unsplash.com/photo-1571772996211-2f02c9727629?auto=format&fit=crop&q=80&w=400" },
 ];
@@ -146,12 +146,12 @@ export default function Home() {
           <div className="order-2 md:order-1 relative">
             {/* male dentist portrait */}
             <img 
-              src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&q=80&w=800" 
+              src="/doctor.jpeg" 
               alt="Dr. Anurag Hemani" 
               className="rounded-2xl shadow-lg w-full object-cover"
             />
             <div className="absolute -bottom-6 -right-6 bg-secondary text-white p-6 rounded-xl shadow-xl">
-              <p className="text-3xl font-bold">15+</p>
+              <p className="text-3xl font-bold">5+</p>
               <p className="text-sm opacity-90">Years of Experience</p>
             </div>
           </div>
@@ -159,7 +159,7 @@ export default function Home() {
             <h4 className="text-primary font-semibold mb-2">About The Doctor</h4>
             <h2 className="text-4xl font-bold mb-6">Meet Dr. Anurag Hemani</h2>
             <p className="text-muted-foreground mb-6 leading-relaxed">
-              With over 15 years of experience in clinical dentistry, Dr. Anurag Hemani is one of Jaipur's leading dental practitioners.
+              With over 5 years of experience in clinical dentistry, Dr. Anurag Hemani is one of Jaipur's leading dental practitioners.
               Specializing in comprehensive restorative and cosmetic procedures, he combines technical precision with an artistic eye.
             </p>
             <p className="text-muted-foreground mb-8 leading-relaxed">

@@ -33,7 +33,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="font-bold text-lg mb-1">Our Location</h3>
-                  <p className="text-muted-foreground">123 Medical Plaza, Malviya Nagar,<br />Jaipur, Rajasthan 302017</p>
+                  <p className="text-muted-foreground">D-75a, Paramhans Colony, Sindhu Nagar,<br />Murlipura, Jaipur Rajasthan 302039</p>
                 </div>
               </div>
 
@@ -43,8 +43,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="font-bold text-lg mb-1">Phone Number</h3>
-                  <p className="text-muted-foreground">+91 987 654 3210</p>
-                  <p className="text-muted-foreground text-sm">Mon-Sat, 10am-8pm</p>
+                  <p className="text-muted-foreground">+91 93520 30055</p>
                 </div>
               </div>
 
@@ -54,8 +53,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="font-bold text-lg mb-1">Email Address</h3>
-                  <p className="text-muted-foreground">info@drhemani.com</p>
-                  <p className="text-muted-foreground">appointments@drhemani.com</p>
+                  <p className="text-muted-foreground">hemanianurag@gmail.com</p>
                 </div>
               </div>
 
@@ -65,8 +63,8 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="font-bold text-lg mb-1">Working Hours</h3>
-                  <p className="text-muted-foreground">Monday - Saturday: 10:00 AM - 8:00 PM</p>
-                  <p className="text-muted-foreground">Sunday: By Appointment Only</p>
+                  <p className="text-muted-foreground">Monday - Saturday: 9:30 AM - 2:00 PM and 4:30 PM - 9:00 PM</p>
+                  <p className="text-muted-foreground">Sunday: 10:00 AM - 2:00 PM</p>
                 </div>
               </div>
             </div>
