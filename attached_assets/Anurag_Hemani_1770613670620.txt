@@ -1,0 +1,530 @@
+PROJECT OVERVIEW:
+
+Please use dummy image and dummy location for now and doctor name should be Anurag Hemani.
+You can use dummy bio for the doctor.
+For loaction use Jaipur for now.
+
+will request you to change the location image and design later once it is ready
+
+Multi-specialty Dental Clinic Website for showcasing services, building trust, 
+and enabling patient engagement through online presence.
+
+================================================================================
+1. HOMEPAGE REQUIREMENTS
+================================================================================
+
+1.1 Hero Section
+- Large banner with clinic name and tagline
+- High-quality image/slider showcasing clinic facility or happy patients
+- Clear Call-to-Action (CTA) buttons:
+  * "Book an Appointment"
+  * "Contact Us"
+  * "Call Now" with clickable phone number
+
+1.2 Clinic Introduction
+- Brief overview of the clinic (2-3 paragraphs)
+- Years of experience highlighted
+- Location mention (e.g., "Best Dentists in [Area], [City]")
+- Multi-specialty care mention
+
+1.3 Key Features/USPs Section
+- Clean, modern layout showcasing unique selling points:
+  * Specialist dentists under one roof
+  * 360-degree dental care
+  * World-class treatment standards
+  * Advanced technology
+  * Sterilization and safety protocols
+  * COVID-19 precautionary measures
+
+1.4 Services Overview
+- Grid/card layout displaying main services
+- Service icons or representative images
+- Brief description for each service
+- "Learn More" links to detailed service pages
+
+1.5 Why Choose Us Section
+- Bullet points or cards highlighting:
+  * Experienced specialist team
+  * State-of-the-art equipment
+  * Patient-first approach
+  * Comprehensive treatment options
+  * Flexible payment options
+  * Comfortable clinic environment
+
+1.6 Testimonials/Reviews
+- Patient reviews and ratings
+- Photos (if available and permitted)
+- Star ratings
+- Authentic patient names and feedback
+
+1.7 Footer
+- Contact information (address, phone, email)
+- Operating hours
+- Quick links to main pages
+- Social media icons
+- Google Maps integration
+- Payment methods accepted
+- Copyright and developer credits
+
+================================================================================
+2. ABOUT US PAGE REQUIREMENTS
+================================================================================
+
+2.1 Clinic Story
+- Detailed history of the clinic
+- Mission and vision statements
+- Values and philosophy of care
+- Number of years in practice
+- Number of successful treatments/patients served
+
+2.2 Infrastructure
+- Clinic facility details
+- Number of dental chairs/operatories
+- Sterilization facilities
+- Technology and equipment used
+- Waiting area amenities
+
+2.3 Team Section
+- Doctor profiles with photos
+- Qualifications and specializations
+- Years of experience
+- Professional memberships/certifications
+- Personal approach to patient care
+
+2.4 Accreditations
+- Certifications and registrations
+- Awards and recognitions
+- Professional affiliations
+
+2.5 Location and Accessibility
+- Detailed address
+- Landmark references
+- Transport accessibility information
+- Parking availability
+
+================================================================================
+3. SERVICES PAGE REQUIREMENTS
+================================================================================
+
+3.1 Service Categories to Include:
+- General Dentistry
+  * Routine check-ups
+  * Dental cleanings
+  * Oral examinations
+  * Preventive care
+
+- Restorative Dentistry
+  * Dental crowns
+  * Dental bridges
+  * Dental fillings
+  * Tooth repairs
+
+- Cosmetic Dentistry
+  * Dental veneers/Ceramic veneers
+  * Teeth whitening
+  * Smile design
+  * Aesthetic treatments
+
+- Dental Implants
+  * Single tooth implants
+  * Multiple teeth implants
+  * Full mouth reconstruction
+  * Implant-supported dentures
+
+- Root Canal Treatment (Endodontics)
+  * Single visit RCT
+  * Root canal therapy
+  * Re-treatment
+
+- Orthodontics
+  * Braces (metal, ceramic)
+  * Clear aligners
+  * Teeth straightening
+  * Bite correction
+
+- Oral Surgery
+  * Tooth extraction
+  * Wisdom tooth removal
+  * Maxillofacial surgery
+  * Surgical procedures under anesthesia
+
+- Pediatric Dentistry
+  * Children's dental care
+  * Early intervention
+  * Cavity prevention
+  * Child-friendly treatments
+
+- Advanced Treatments
+  * Laser dentistry
+  * Zirconia crowns
+  * Digital dentistry
+  * Same-day procedures
+
+3.2 Service Page Structure (for each service):
+- Service name and category
+- Detailed description (what it is)
+- Benefits and advantages
+- Treatment process/procedure steps
+- Before/After considerations
+- Expected duration
+- Recovery/aftercare information
+- FAQs specific to the service
+- Related services links
+- Call-to-action to book appointment
+
+================================================================================
+4. CONTACT PAGE REQUIREMENTS
+================================================================================
+
+4.1 Contact Form
+- Fields:
+  * Name (required)
+  * Phone Number (required)
+  * Email (required)
+  * Service Interested In (dropdown)
+  * Preferred Date/Time
+  * Message/Additional Details
+  * Submit button
+- Form validation
+- Confirmation message after submission
+- Email notification to clinic
+
+4.2 Direct Contact Information
+- Clinic address (with area/locality)
+- Phone number(s) - clickable for mobile
+- Email address - clickable mailto link
+- WhatsApp number (if available)
+
+4.3 Operating Hours
+- Day-wise timings
+- Morning session: 10:00 AM - 02:00 PM
+- Evening session: 05:00 PM - 08:30 PM
+- Holiday information
+- Emergency contact details
+
+4.4 Location Map
+- Embedded Google Maps
+- Directions link
+- Nearby landmarks
+
+4.5 Appointment Booking
+- "Book an Appointment" CTA button
+- Link to appointment form or booking system
+- Mention of booking in advance to avoid waiting
+
+6.1 Visual Design Philosophy
+UNIQUE & MEMORABLE AESTHETIC:
+- Break away from traditional "medical blue" - create a distinctive brand identity
+- Modern, approachable design that reduces dental anxiety
+- Warm, welcoming atmosphere balanced with professional credibility
+- Personality-driven design that tells your clinic's unique story
+
+COLOR PALETTE (Contemporary Approach):
+Option 1 - Warm & Inviting:
+  * Primary: Soft terracotta, warm sage green, or muted coral
+  * Secondary: Cream, warm off-white, or soft beige
+  * Accent: Gold, copper, or deep teal
+  * Neutrals: Charcoal gray instead of pure black
+
+Option 2 - Fresh & Modern:
+  * Primary: Deep forest green or navy blue
+  * Secondary: Soft pink or peach
+  * Accent: Bright mint or sunshine yellow
+  * Neutrals: Warm gray tones
+
+Option 3 - Bold & Confident:
+  * Primary: Deep purple or burgundy
+  * Secondary: Soft lavender or blush
+  * Accent: Bright turquoise or emerald
+  * Neutrals: Sophisticated gray palette
+
+Key Principles:
+- Use gradients and color transitions (subtle, not overwhelming)
+- Implement glassmorphism effects for modern depth
+- Organic, flowing color blocks instead of rigid rectangles
+- 60-30-10 color rule (60% dominant, 30% secondary, 10% accent)
+
+TYPOGRAPHY (2026 Trends):
+- Variable fonts for dynamic, responsive typography
+- Font pairing: Modern sans-serif (headings) + elegant serif or geometric sans (body)
+- Large, bold headings (48-72px) for impact
+- Generous line height (1.6-1.8) for readability
+- Fluid typography that scales smoothly across devices
+- Minimum body text: 18px (not 16px - modern accessibility standard)
+
+Examples:
+  * Headings: Plus Jakarta Sans, Satoshi, Cabinet Grotesk, or Clash Display
+  * Body: Inter, DM Sans, Sora, or Crimson Pro (serif option)
+
+IMAGERY STYLE:
+- Authentic, candid photography (avoid overly staged stock photos)
+- Natural lighting with warm tones
+- Real patients (with consent) showing genuine emotions
+- Mix of close-up details and environmental shots
+- Incorporate lifestyle imagery (people smiling in daily life, not just dental chairs)
+- Custom illustrations or icon sets for uniqueness
+- 3D elements or micro-animations for services
+- Asymmetric image layouts for visual interest
+
+6.2 Layout & Spacing (Modern Standards)
+
+LAYOUT PHILOSOPHY:
+- Asymmetric, dynamic layouts over traditional grids
+- Bento box / card-based design systems
+- Floating elements with subtle shadows/depth
+- Organic shapes and curved sections (wave dividers, blob shapes)
+- Generous white/negative space (breathing room is luxury)
+- Content-first approach - design serves the message
+- Z-pattern and F-pattern layouts for optimal eye flow
+
+SPACING SYSTEM:
+- 8px base unit spacing system (8, 16, 24, 32, 48, 64, 96, 128px)
+- Large padding around sections (80-120px on desktop)
+- Micro-interactions with appropriate spacing
+- Visual hierarchy through size and space, not just color
+
+RESPONSIVE BREAKPOINTS:
+- Mobile: 375px - 767px
+- Tablet: 768px - 1023px
+- Desktop: 1024px - 1439px
+- Large Desktop: 1440px+
+- Ultra-wide: 1920px+
+
+GRID SYSTEM:
+- Fluid, flexible grid (not rigid 12-column)
+- CSS Grid and Flexbox combination
+- Subgrid support for nested layouts
+- Asymmetric column widths for visual interest
+
+6.3 Navigation (Contemporary UX)
+
+HEADER/NAVIGATION:
+- Minimalist, clean navigation bar
+- Transparent header that becomes solid on scroll
+- Mega menu for services (visual cards with icons/images)
+- Sticky navigation with smooth hide/show on scroll
+- Search functionality (optional but recommended)
+- Quick action buttons: "Book Now" (primary CTA), "Emergency"
+- Smooth transitions and micro-animations
+
+MOBILE NAVIGATION:
+- Full-screen slide-in menu (not tiny hamburger dropdown)
+- Large, tappable menu items (minimum 44px touch targets)
+- Category-based organization
+- Bottom navigation bar for key actions (optional)
+- Gesture-based navigation support
+
+MICRO-NAVIGATION:
+- Breadcrumbs with icon separators
+- Progress indicators for multi-step forms
+- Anchor link navigation for long pages
+- Floating "Quick Contact" button (bottom right)
+- Smart "Back to Top" that appears after scrolling 50%
+
+6.4 Interactive Elements & Animations (2026 Standards)
+
+MOTION DESIGN:
+- Purposeful, meaningful animations (not decorative)
+- Reduced motion support for accessibility
+- Page transition animations (fade, slide)
+- Parallax scrolling effects (subtle, performance-optimized)
+- Scroll-triggered animations (elements fade/slide in)
+- Hover states with smooth transitions (0.3s ease)
+- Loading skeleton screens instead of spinners
+- Lottie animations for icons and illustrations
+
+MICRO-INTERACTIONS:
+- Button ripple effects
+- Form field focus states with smooth highlights
+- Toggle switches with satisfying transitions
+- Card lift on hover (subtle shadow increase)
+- Image zoom on hover for galleries
+- Cursor changes for interactive elements
+- Progress bars for form completion
+
+ADVANCED INTERACTIONS:
+- 3D tilt effects on cards (subtle)
+- Magnetic buttons (elements attract cursor)
+- Scroll progress indicator (thin line at top)
+- Infinite scroll with smart loading
+- Swipeable carousels (touch-friendly)
+- Video backgrounds (muted, subtle, relevant)
+- Split-screen layouts with independent scrolling
+
+FEEDBACK MECHANISMS:
+- Instant visual feedback for all interactions
+- Success/error states with icons and color
+- Toast notifications (non-intrusive)
+- Form validation in real-time (not on submit)
+- Confirmation modals with clear actions
+- Loading states for async operations
+
+6.5 Component Library (Design System)
+
+BUTTONS:
+- Primary: Bold, rounded corners (8-12px radius)
+- Secondary: Outlined or ghost style
+- Minimum size: 48px height (mobile touch-friendly)
+- Icon + text combinations
+- Loading states built-in
+- Disabled states clearly visible
+
+CARDS:
+- Soft shadows (not harsh borders)
+- Rounded corners (12-24px)
+- Hover states with elevation change
+- Glass morphism effects (optional)
+- Consistent padding (24-32px)
+
+FORMS:
+- Floating labels or top-aligned labels
+- Large input fields (56px height minimum)
+- Clear error states with helpful messages
+- Progressive disclosure (show fields as needed)
+- Auto-formatting for phone/date inputs
+- Password strength indicators
+- Autocomplete support
+
+MODALS/DIALOGS:
+- Centered with backdrop blur
+- Smooth entrance/exit animations
+- Close button clearly visible
+- Keyboard navigation (ESC to close)
+- Mobile-optimized (full-screen on small devices)
+
+TOOLTIPS/POPOVERS:
+- Contextual help on hover/tap
+- Non-blocking positioning
+- Arrow indicators
+- Readable contrast
+
+6.6 Unique Design Elements (Stand Out Features)
+
+HERO SECTION:
+- Dynamic, attention-grabbing above-the-fold design
+- Options:
+  * Split-screen with image/video on one side
+  * Full-width background video with subtle overlay
+  * Animated gradient mesh backgrounds
+  * 3D illustrations or Spline integrations
+  * Interactive elements (cursor-following effects)
+
+CUSTOM ELEMENTS:
+- Custom cursor design (branded, subtle)
+- Scroll indicators (animated)
+- Decorative geometric shapes (circles, lines, blobs)
+- Pattern overlays (subtle, branded)
+- Custom checkboxes and radio buttons
+- Unique divider sections between content blocks
+
+STORYTELLING FEATURES:
+- Before/After sliders (interactive comparison)
+- Timeline for clinic history
+- Number counters (patients treated, years experience)
+- Interactive service explorer
+- Virtual clinic tour (360° optional)
+
+TRUST INDICATORS:
+- Live reviews feed from Google
+- Real-time availability calendar
+- "Currently treating X patients" counter
+- Certifications displayed as badges with animation
+- Team photos with personality (candid, not corporate)
+
+6.7 Accessibility (WCAG 2.2 AAA Standards)
+
+ENHANCED ACCESSIBILITY:
+- Color contrast ratio minimum 7:1 (AAA standard)
+- Focus indicators clearly visible (3px outline minimum)
+- Skip to main content link
+- Alt text for all images (descriptive, not generic)
+- ARIA labels for interactive elements
+- Keyboard navigation fully functional
+- Screen reader tested and optimized
+- Captions for all video content
+- Transcripts for audio content
+- Resizable text up to 200% without breaking layout
+- No content that flashes more than 3 times per second
+
+INCLUSIVE DESIGN:
+- Dark mode option (system preference detection)
+- Font size adjuster (AA, A, AAA options)
+- Reduced motion mode (respects prefers-reduced-motion)
+- High contrast mode option
+- Multiple language support
+- Voice search integration (optional)
+
+6.8 Performance & Optimization
+
+VISUAL PERFORMANCE:
+- Lazy loading for images below fold
+- WebP/AVIF image formats with fallbacks
+- Responsive images with srcset
+- SVG for icons and logos
+- Optimized font loading (font-display: swap)
+- Critical CSS inline, rest deferred
+- No layout shift (proper aspect ratios set)
+- Smooth 60fps animations
+
+PERCEIVED PERFORMANCE:
+- Skeleton screens while loading
+- Progressive image loading (blur-up effect)
+- Instant page transitions (SPA feel)
+- Optimistic UI updates
+- Pre-loading next likely page
+
+6.9 Unique Brand Personality Touches
+
+VOICE & TONE THROUGH DESIGN:
+- Friendly, approachable but professional
+- Consistent iconography style (custom designed)
+- Mascot or character (optional - friendly tooth character)
+- Consistent illustration style throughout
+- Photography style guide (warm, natural, authentic)
+- Pattern library (branded background patterns)
+- Custom emoji or icon set for different services
+
+EMOTIONAL DESIGN:
+- Delight moments (confetti on form submission, playful 404 page)
+- Empathetic messaging for anxious patients
+- Calming color transitions
+- Positive reinforcement throughout journey
+- Human touch - personal messages from doctors
+- Behind-the-scenes content (team culture, daily life)
+
+
+
+8.1 On-Page SEO
+- Title tags optimized for each page
+- Meta descriptions (150-160 characters)
+- Header tags properly structured
+- Image alt attributes
+- Internal linking strategy
+- URL structure (clean, descriptive URLs)
+- Schema markup for local business
+- Open Graph tags for social sharing
+
+8.2 Local SEO
+- Google My Business integration
+- NAP consistency (Name, Address, Phone)
+- Local keywords:
+  * "Best dentist in [Area]"
+  * "Dental clinic in [City]"
+  * "[Service] in [Location]"
+- Location pages for different areas served
+- Local business schema markup
+
+8.3 Content Optimization
+- Keyword research for services
+- Long-tail keywords for blog posts
+- FAQs with question schema
+- Service pages optimized for specific treatments
+- Regular content updates
+
+8.4 Technical SEO
+- XML sitemap
+- Robots.txt file
+- Mobile-friendly design
+- Fast loading speed
+- Proper redirects (301)
+- Canonical tags
