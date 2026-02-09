@@ -8,23 +8,6 @@ export async function registerRoutes(
   httpServer: Server,
   app: Express
 ): Promise<Server> {
-  // === INQUIRIES ===
-  app.post(api.inquiries.create.path, async (req, res) => {
-    try {
-      const input = api.inquiries.create.input.parse(req.body);
-      const inquiry = await storage.createInquiry(input);
-      res.status(201).json(inquiry);
-    } catch (err) {
-      if (err instanceof z.ZodError) {
-        return res.status(400).json({
-          message: err.errors[0].message,
-          field: err.errors[0].path.join('.'),
-        });
-      }
-      throw err;
-    }
-  });
-
   // === TESTIMONIALS ===
   app.get(api.testimonials.list.path, async (req, res) => {
     const testimonials = await storage.getTestimonials();

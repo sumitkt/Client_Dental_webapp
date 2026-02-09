@@ -1,16 +1,13 @@
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { insertInquirySchema, type InsertInquiry } from "@shared/schema";
-import { useCreateInquiry } from "@/hooks/use-inquiries";
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Button } from "@/components/ui/button";
-import { Loader2 } from "lucide-react";
 
 export function AppointmentForm() {
-  const mutation = useCreateInquiry();
 
   const form = useForm<InsertInquiry>({
     resolver: zodResolver(insertInquirySchema),
@@ -25,15 +22,27 @@ export function AppointmentForm() {
   });
 
   const onSubmit = (data: InsertInquiry) => {
-    mutation.mutate(data, {
-      onSuccess: () => form.reset(),
-    });
+    const whatsappNumber = "917575991864";
+    const message = `*inquiry done*
+    
+*Name:* ${data.name}
+*Phone:* ${data.phone}
+*Email:* ${data.email}
+*Service:* ${data.service}
+*Preferred Date:* ${data.preferredDate}
+*Message:* ${data.message || 'N/A'}`;
+
+    const encodedMessage = encodeURIComponent(message);
+    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
+    
+    window.open(whatsappUrl, '_blank');
+    form.reset();
   };
 
   return (
     <div className="bg-white p-8 rounded-2xl shadow-xl border border-primary/10">
       <h3 className="text-2xl font-bold font-heading text-primary mb-2">Book an Appointment</h3>
-      <p className="text-muted-foreground mb-6">Fill out the form below and we'll contact you to confirm.</p>
+      <p className="text-muted-foreground mb-6">Fill out the form below to book via WhatsApp.</p>
       
       <Form {...form}>
         <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-4">
@@ -143,16 +152,8 @@ export function AppointmentForm() {
           <Button 
             type="submit" 
             className="w-full bg-secondary hover:bg-secondary/90 text-white font-bold py-6 text-lg shadow-lg shadow-secondary/20"
-            disabled={mutation.isPending}
           >
-            {mutation.isPending ? (
-              <>
-                <Loader2 className="mr-2 h-5 w-5 animate-spin" />
-                Submitting...
-              </>
-            ) : (
-              "Confirm Appointment"
-            )}
+            Confirm Appointment via WhatsApp
           </Button>
         </form>
       </Form>

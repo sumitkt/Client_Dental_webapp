@@ -3,25 +3,15 @@ import { createInsertSchema } from "drizzle-zod";
 import { z } from "zod";
 
 // === INQUIRIES / APPOINTMENTS ===
-export const inquiries = pgTable("inquiries", {
-  id: serial("id").primaryKey(),
-  name: text("name").notNull(),
-  phone: text("phone").notNull(),
-  email: text("email").notNull(),
-  service: text("service"),
-  preferredDate: text("preferred_date"),
-  message: text("message"),
-  status: text("status").default("new"), // new, contacted, scheduled
-  createdAt: timestamp("created_at").defaultNow(),
+export const insertInquirySchema = z.object({
+  name: z.string().min(1, "Name is required"),
+  phone: z.string().min(1, "Phone is required"),
+  email: z.string().email("Invalid email"),
+  service: z.string().optional(),
+  preferredDate: z.string().optional(),
+  message: z.string().optional(),
 });
 
-export const insertInquirySchema = createInsertSchema(inquiries).omit({ 
-  id: true, 
-  status: true, 
-  createdAt: true 
-});
-
-export type Inquiry = typeof inquiries.$inferSelect;
 export type InsertInquiry = z.infer<typeof insertInquirySchema>;
 
 // === TESTIMONIALS ===
