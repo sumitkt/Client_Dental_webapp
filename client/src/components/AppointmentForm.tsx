@@ -22,15 +22,15 @@ export function AppointmentForm() {
   });
 
   const onSubmit = (data: InsertInquiry) => {
-    const whatsappNumber = "917575991864";
-    const message = `*inquiry done*
-    
+    const whatsappNumber = "919352030055";
+    const message = `*New Appointment Request*
+
 *Name:* ${data.name}
 *Phone:* ${data.phone}
 *Email:* ${data.email}
 *Service:* ${data.service}
 *Preferred Date:* ${data.preferredDate}
-*Message:* ${data.message || 'N/A'}`;
+*Message:* ${data.message || 'None'}`;
 
     const encodedMessage = encodeURIComponent(message);
     const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;

@@ -1,5 +1,5 @@
 import { Link, useLocation } from "wouter";
-import { Menu, X, Phone, Calendar } from "lucide-react";
+import { Menu, X, Phone, Calendar, MessageCircle } from "lucide-react";
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
@@ -61,6 +61,13 @@ export function Navbar() {
             </Link>
           ))}
           <Button 
+            className="bg-green-500 hover:bg-green-600 text-white rounded-full px-6 shadow-lg flex items-center gap-2"
+            onClick={() => window.open('https://wa.me/919352030055?text=Hi%20Dr%20Anurag,%20I%20would%20like%20to%20book%20an%20appointment', '_blank')}
+          >
+            <MessageCircle className="w-4 h-4" />
+            WhatsApp
+          </Button>
+          <Button 
             className="bg-secondary hover:bg-secondary/90 text-white rounded-full px-6 shadow-lg shadow-secondary/20"
             onClick={() => window.location.href = "/contact"}
           >
@@ -92,6 +99,16 @@ export function Navbar() {
               ))}
               <div className="h-px bg-border my-2" />
               <Button 
+                className="w-full bg-green-500 hover:bg-green-600 text-white flex items-center justify-center gap-2"
+                onClick={() => {
+                  window.open('https://wa.me/919352030055?text=Hi%20Dr%20Anurag,%20I%20would%20like%20to%20book%20an%20appointment', '_blank');
+                  setMobileOpen(false);
+                }}
+              >
+                <MessageCircle className="w-4 h-4" />
+                Chat on WhatsApp
+              </Button>
+              <Button 
                 className="w-full bg-secondary hover:bg-secondary/90 text-white"
                 onClick={() => {
                   window.location.href = "/contact";
@@ -102,7 +119,7 @@ export function Navbar() {
               </Button>
               <div className="flex items-center justify-center gap-2 text-muted-foreground text-sm mt-4">
                 <Phone className="w-4 h-4" />
-                <span>+91 123 456 7890</span>
+                <span>+91 93520 30055</span>
               </div>
             </div>
           </SheetContent>

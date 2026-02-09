@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Shield, Clock, Award, ChevronRight, CheckCircle2 } from "lucide-react";
+import { Shield, Clock, Award, ChevronRight, CheckCircle2, MessageCircle } from "lucide-react";
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { AppointmentForm } from "@/components/AppointmentForm";
@@ -206,6 +206,27 @@ export default function Home() {
           <div className="text-center mt-12">
             <Button size="lg" className="bg-primary text-white rounded-full px-8" asChild>
               <Link href="/services">View All Services</Link>
+            </Button>
+          </div>
+        </div>
+      </section>
+
+      {/* Quick WhatsApp WTA */}
+      <section className="py-16 bg-green-50 border-y border-green-200">
+        <div className="container-custom">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-8 bg-white rounded-2xl p-8 md:p-12 shadow-lg border border-green-100">
+            <div className="flex-1">
+              <h3 className="text-3xl font-bold text-foreground mb-3">Chat with us on WhatsApp</h3>
+              <p className="text-muted-foreground mb-6 max-w-md leading-relaxed">
+                Get instant replies to your dental questions and book appointments directly via WhatsApp. Quick, easy, and convenient!
+              </p>
+            </div>
+            <Button 
+              onClick={() => window.open('https://wa.me/919352030055?text=Hi%20Dr%20Anurag,%20I%20would%20like%20to%20book%20an%20appointment', '_blank')}
+              className="bg-green-500 hover:bg-green-600 text-white rounded-full px-8 py-6 text-lg font-bold shadow-lg flex items-center gap-2 whitespace-nowrap h-auto"
+            >
+              <MessageCircle className="w-5 h-5" />
+              Chat Now
             </Button>
           </div>
         </div>

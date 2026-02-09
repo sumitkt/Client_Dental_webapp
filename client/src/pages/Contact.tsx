@@ -1,6 +1,7 @@
 import { AppointmentForm } from "@/components/AppointmentForm";
-import { MapPin, Phone, Mail, Clock } from "lucide-react";
+import { MapPin, Phone, Mail, Clock, MessageCircle } from "lucide-react";
 import { motion } from "framer-motion";
+import { Button } from "@/components/ui/button";
 
 export default function Contact() {
   return (
@@ -81,6 +82,15 @@ export default function Contact() {
                 referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
             </div>
+
+            {/* Quick WhatsApp Button */}
+            <Button 
+              onClick={() => window.open('https://wa.me/919352030055?text=Hi%20Dr%20Anurag,%20I%20would%20like%20to%20book%20an%20appointment', '_blank')}
+              className="w-full mt-8 bg-green-500 hover:bg-green-600 text-white font-bold py-6 text-lg shadow-lg flex items-center justify-center gap-2"
+            >
+              <MessageCircle className="w-5 h-5" />
+              Chat on WhatsApp
+            </Button>
           </div>
 
           {/* Form */}
