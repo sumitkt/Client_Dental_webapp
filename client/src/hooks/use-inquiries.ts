@@ -28,7 +28,7 @@ export function useCreateInquiry() {
     },
     onSuccess: () => {
       toast({
-        title: "Inquiry Sent",
+        title: "Inquiry done for appointment",
         description: "We'll get back to you shortly to confirm your appointment.",
       });
     },
