@@ -40,7 +40,7 @@ export function AppointmentForm() {
   };
 
   return (
-    <div className="bg-white p-8 rounded-2xl shadow-xl border border-primary/10">
+    <div className="bg-white p-6 md:p-8 rounded-2xl shadow-xl border border-primary/10">
       <h3 className="text-2xl font-bold font-heading text-primary mb-2">Book an Appointment</h3>
       <p className="text-muted-foreground mb-6">Fill out the form below to book via WhatsApp.</p>
       
@@ -151,7 +151,7 @@ export function AppointmentForm() {
 
           <Button 
             type="submit" 
-            className="w-full bg-secondary hover:bg-secondary/90 text-white font-bold py-6 text-lg shadow-lg shadow-secondary/20"
+            className="w-full bg-secondary hover:bg-secondary/90 text-white font-bold py-3 md:py-6 text-base md:text-lg shadow-lg shadow-secondary/20"
           >
             Confirm Appointment via WhatsApp
           </Button>

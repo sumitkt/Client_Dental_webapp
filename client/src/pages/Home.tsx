@@ -233,9 +233,9 @@ export default function Home() {
       </section>
 
       {/* Appointment Section */}
-      <section id="appointment" className="py-24 bg-primary text-white relative overflow-hidden">
+      <section id="appointment" className="py-16 md:py-24 bg-primary text-white relative overflow-hidden">
         <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-white opacity-5 rounded-full blur-[100px] translate-x-1/2 -translate-y-1/2" />
-        <div className="container-custom grid lg:grid-cols-2 gap-16 items-center relative z-10">
+        <div className="container-custom grid grid-cols-1 lg:grid-cols-2 gap-8 items-center relative z-10">
           <div>
             <h2 className="text-4xl lg:text-5xl font-bold mb-6">Ready to Transform Your Smile?</h2>
             <p className="text-white/80 text-lg mb-8 leading-relaxed">

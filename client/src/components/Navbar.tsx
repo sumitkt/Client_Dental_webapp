@@ -119,7 +119,9 @@ export function Navbar() {
               </Button>
               <div className="flex items-center justify-center gap-2 text-muted-foreground text-sm mt-4">
                 <Phone className="w-4 h-4" />
-                <span>+91 93520 30055</span>
+                <a href="tel:+919352030055" className="hover:text-primary transition-colors">
+                  +91 93520 30055
+                </a>
               </div>
             </div>
           </SheetContent>
