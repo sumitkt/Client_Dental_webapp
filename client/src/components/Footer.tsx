@@ -26,8 +26,8 @@ export function Footer() {
             Providing world-class dental care with a gentle touch. Advanced technology, expert team, and a warm environment for your perfect smile.
           </p>
           <div className="flex gap-4">
-            <SocialLink icon={<Facebook className="w-5 h-5" />} href="#" />
-            <SocialLink icon={<Instagram className="w-5 h-5" />} href="#" />
+            <SocialLink icon={<Facebook className="w-5 h-5" />} href="https://www.facebook.com/share/16WPrwXbJz/?mibextid=wwXIfr" />
+            <SocialLink icon={<Instagram className="w-5 h-5" />} href="https://www.instagram.com/dranuragsdentalclinicjaip?igsh=MWpic3F2enVvMHhzMA==" />
             <SocialLink icon={<Twitter className="w-5 h-5" />} href="#" />
           </div>
         </div>
